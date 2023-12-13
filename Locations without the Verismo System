@@ -1,0 +1,5 @@
+-- Locations that do not use Verisimo Systems
+
+SELECT Name, ID, Verismo_system
+FROM state_stats
+WHERE verismo_system = 'NO';
